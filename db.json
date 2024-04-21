@@ -1,0 +1,30 @@
+{
+  "seller-auth": [
+    {
+      "id": "e8b5",
+      "name": "Wali Muhammad",
+      "password": "wali",
+      "email": "wali@gmail.com"
+    },
+    {
+      "id": "3818",
+      "name": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com"
+    },
+    {
+      "id": "b67a",
+      "observe": "response"
+    },
+    {
+      "id": "c704",
+      "observe": "response"
+    },
+    {
+      "id": "9260",
+      "name": "admin1",
+      "password": "admin1",
+      "email": "admin1@gmail.com"
+    }
+  ]
+}

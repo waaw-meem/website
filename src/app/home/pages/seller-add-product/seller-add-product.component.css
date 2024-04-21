@@ -1,0 +1,46 @@
+.add-product {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-product h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .common-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input,
+  .form-button,
+  textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: dodgerblue;
+  }
+  
+  .form-button {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #007bff;
+  }
+  
