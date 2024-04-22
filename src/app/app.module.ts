@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { SellerHomeComponent } from './home/pages/seller-home/seller-home.component';
 import { SellerAddProductComponent } from './home/pages/seller-add-product/seller-add-product.component';
-import { SellerProductListComponent } from './home/pages/seller-product-list/seller-product-list.component';
+import { SellerUpdateProductComponent } from './home/pages/seller-update-product/seller-update-product.component';
 
 
 
@@ -22,7 +22,8 @@ import { SellerProductListComponent } from './home/pages/seller-product-list/sel
     HomepageComponent,
     SellerHomeComponent,
     SellerAddProductComponent,
-    SellerProductListComponent,
+    SellerUpdateProductComponent,
+
   ],
   imports: [
     BrowserModule,

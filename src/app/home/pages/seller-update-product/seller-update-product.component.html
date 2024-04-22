@@ -1,7 +1,8 @@
-<p>seller-add-product works!</p>
+<p>seller-update-product works!</p>
+
 <div class="add-product">
-  <h1>Add New Product</h1>
-  <p class="message-p">{{confirmMessage}}</p>
+  <h1>Update Product</h1>
+  <!-- <p class="message-p">{{confirmMessage}}</p> -->
   <form #addProduct="ngForm"
   (ngSubmit)="submit(addProduct.value)"
    class="common-form">
@@ -48,7 +49,7 @@ placeholder="Enter Product Image URL"
 name="image"
 ngModel
 />
-<button class="form-button">Add Product</button>
+<button class="form-button">Update Product</button>
 
   </form>
 </div>
