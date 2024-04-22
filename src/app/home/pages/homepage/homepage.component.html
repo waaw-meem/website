@@ -1,1 +1,28 @@
-<p>homepage works!</p>
+<div class="product-list-wrapper">
+    <h1 class="trendy-products-title">Trendy Products</h1>
+    <div class="row">
+        <div class="col-sm-3">
+           <div class="product_wrapper">
+            <div class="product-item" *ngFor="let item of trendyProducts">
+                <img class="product-image" src="{{item.image}}" alt="">
+                <div class="product-details">
+                    <h6 class="product-name">New Apple Product</h6>
+                    <h6 class="product-name">{{item.name}}</h6>
+                    <div class="product-price">
+                        <h6>Price: 100000</h6>
+                        <h6>Price: {{item.price}}</h6>
+                    </div>
+                    <div class="product-color">
+                        <h6>Color: Red</h6>
+                        <h6>Color: {{item.color}}</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a href="">View Details</a>
+      <a href="">Add to Cart</a>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+</div>
