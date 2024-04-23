@@ -7,6 +7,8 @@ import { SellerHomeComponent } from "./pages/seller-home/seller-home.component";
 import { AuthGuard } from "../core/Guard/auth-guard.guard";
 import { SellerAddProductComponent } from "./pages/seller-add-product/seller-add-product.component";
 import { SellerUpdateProductComponent } from "./pages/seller-update-product/seller-update-product.component";
+import { SearchProductComponent } from "./pages/search-product/search-product.component";
+import { ProductDetailComponent } from "./pages/product-detail/product-detail.component";
 
 const appRoutes:Routes = [
     {path:'',component:HomepageComponent},
@@ -14,6 +16,9 @@ const appRoutes:Routes = [
     {path:'seller-home',component:SellerHomeComponent, canActivate:[AuthGuard]},
     {path:'seller-add-product',component:SellerAddProductComponent, canActivate:[AuthGuard]},
     {path:'seller-update-product/:id',component:SellerUpdateProductComponent, canActivate:[AuthGuard]},
+    {path:'search/:query',component:SearchProductComponent},
+    {path:'details/:productId',component:ProductDetailComponent},
+
 
 ]
 
@@ -22,4 +27,4 @@ const appRoutes:Routes = [
     exports: [RouterModule]
 })
 
-  export class AppRoutingModule {}
+export class AppRoutingModule {}
